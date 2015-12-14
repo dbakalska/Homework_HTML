@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#div-1 label, #div-3 label, #div-5 label  {
+	display: inline;
+	float: left;
+	width: 8em;
+}
+
+#div-2 span {
+	display: inline;
+	float: left;
+	width: 8em;
+}
+
+#DOB, #DOH {
+	width: 3.5em;
+}
+
+#YOB, #YOH {
+	width: 4.5em;
+}

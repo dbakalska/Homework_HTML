@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 1580px;
+	margin: auto;
+}
+#welcome {
+	height: 730px;
+	background-image: url(../images/fp.jpg);
+}
+
+#welcome section {
+	font-family: 'Orbitron', sans-serif;
+	color: #303030;
+	font-size: 65px;
+	position: absolute;
+    top: 300px;
+    left: 305px;
+}
+
+#span-it {
+	font-size: 90px;
+	color: black;
+}
+
+#span-db {
+	font-size: 69px;
+	color: black;
+}
+
+nav ul {
+	display: inline-block;
+	width: 100%;
+	list-style-type: none;
+}
+
+nav li {
+	float:left;
+	width: 24%;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 25px;
+}
+
+#about h1, #gallery {
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#about {
+	display: inline-block;
+	width: 100%;
+}
+
+#div-about img {
+	float: left;
+	margin-left: 35px; 
+	margin-right: 20px;
+}
+
+#div-about {
+	height: 600px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
+#skills h1, #contact h1 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+table {
+	border: 2px solid black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	width: 15%;
+	
+}
+
+th, td {
+	padding: 0.3em;
+	border: 1px solid black;
+}
+
+#skills, #contact {
+	margin-left: 200px;
+}
